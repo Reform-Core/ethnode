@@ -5,6 +5,7 @@
   "homepage": "https://github.com/vrde/ethnode",
   "main": "main.js",
   "scripts": {
+    "start": "node ./cli.js --workdir=mydata",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "./cli.js -d"
   },
